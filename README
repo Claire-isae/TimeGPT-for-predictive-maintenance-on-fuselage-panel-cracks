@@ -1,0 +1,22 @@
+REQUIREMENTS : 
+ 
+The programs were runned under Python 3.8.13 
+A key is needed from Nixtla to run the forecast on TimeGPT, here after the website to create an account: https://dashboard.nixtla.io/ 
+ 
+ 
+FILES : 
+ 
+main.py : is the file used to create a data base 
+crack.py : is the file with the physics functions used by "main.py" 
+utils.py : is the file with the functions to structure the data set 
+TImeGPT_forecast.py : is the filed to do SIMPLE forecasts and FINE-TUNED forecasts 
+TimeGPT_exogenous_variables.py : is the file to do forecasts with EXOGENOUS VARIABLES 
+Illustration_CaseStudy_personnalise_pure.py : is the filed to run to show the graph with the curves of each gauge 
+ 
+ 
+TUTORIAL : 
+ 
+1- Run "main.py" 
+2- Run "Illustration_CaseStudy_personnalise_pure.py" to show the curves 
+3- In the forecast files, copy your API key from Nixtla, the line is in the IMPORTS 
+4- Run "TImeGPT_forecast.py" or "TimeGPT_exogenous_variables.py"
